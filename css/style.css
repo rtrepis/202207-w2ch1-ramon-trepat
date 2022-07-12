@@ -1,10 +1,8 @@
-/*
 @media (min-width: 375px) {
-  .container {
+  .box {
     max-width: 375px;
   }
 }
-*/
 
 body {
   margin: 0;
@@ -13,13 +11,14 @@ body {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
   flex: 1;
 }
 
-.m50 {
+.p50 {
   padding: 50px;
 }
 
