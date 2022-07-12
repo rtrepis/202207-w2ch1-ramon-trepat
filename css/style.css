@@ -22,23 +22,35 @@ body {
   padding: 50px;
 }
 
-.orange-bright {
+.bg-orange-bright {
   background-color: hsl(31, 77%, 52%);
 }
 
-.cyan-dark {
+.c-orange-bright {
+  color: hsl(31, 77%, 52%);
+}
+
+.bg-cyan-dark {
   background-color: hsl(184, 100%, 22%);
 }
 
-.cyan-very-dark {
+.c-cyan-dark {
+  color: hsl(184, 100%, 22%);
+}
+
+.bg-cyan-very-dark {
   background-color: hsl(179, 100%, 13%);
 }
 
-.transparent-white {
+.c-cyan-very-dark {
+  color: hsl(179, 100%, 13%);
+}
+
+.c-transparent-white {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.gray-very-light {
+.c-gray-very-light {
   color: hsl(0, 0%, 95%);
 }
 
