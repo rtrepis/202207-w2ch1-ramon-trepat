@@ -1,7 +1,14 @@
+/*
 @media (min-width: 375px) {
   .container {
     max-width: 375px;
   }
+}
+*/
+
+body {
+  margin: 0;
+  font-size: 15px;
 }
 
 .container {
@@ -10,6 +17,10 @@
 
 .box {
   flex: 1;
+}
+
+.m50 {
+  padding: 50px;
 }
 
 .orange-bright {
@@ -30,4 +41,18 @@
 
 .gray-very-light {
   color: hsl(0, 0%, 95%);
+}
+
+.lexend {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.shoulders {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
